@@ -99,7 +99,9 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .about-me__picture--mask{
@@ -109,6 +111,7 @@ nav{
     overflow: hidden;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
     margin-bottom: 8px;
+
 }
 
 .about-me__picture{
@@ -119,6 +122,12 @@ nav{
     padding-right: 3px;
 }
 
-.about-me__infop--para{
-    
+.about-me__info--para{
+    font-size: 20px;
+    margin-bottom: 28px;
+
+}
+
+.about-me__info--title{
+    margin-bottom: 16px;
 }
